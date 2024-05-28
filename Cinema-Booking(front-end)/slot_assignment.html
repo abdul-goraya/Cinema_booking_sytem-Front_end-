@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Assignment</title>
+    <link href="/style.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">Cinema Booking System</a>
+    <nav class = "navbar">
+      <a href="admin_options.html">Back</a>
+    </nav>
+  </header>
+  <div class = "wrapper">
+    <form id="loginform" method="post" class="">
+      <h1>Slot Assignment</h1>
+      <div class="input-box">
+        <input type="text" name = "Screen" placeholder="screen0" required>
+      </div>
+      <div class="input-box">
+        <input type="text" name = "Movie" placeholder="Movie name (exact)" required>
+      </div>
+      <div class="input-box">
+        <input type="text" name="Time" placeholder="Time(00-00-00-00)" required>
+      </div>
+      <div class="input-box">
+        <input type="text" name = "Seats" placeholder="Seats (i.e 0a)" required>
+      </div>
+      <button onclick="window.location.href='user_options.html'" class="btn">Submit
+      </button>
+    </form>
+</body>
+</html>
